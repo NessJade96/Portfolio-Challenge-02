@@ -1,0 +1,59 @@
+body {
+	background-color: #f0d5c1;
+	color: #564c4d;
+}
+
+header {
+	margin: 5%;
+}
+
+h1 {
+	font-size: 200%;
+	padding: 2.5%;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	display: flex;
+	justify-content: space-around;
+	margin: 2.5%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+li img {
+	height: 1rem;
+	width: auto;
+}
+
+h1 img {
+	height: 3rem;
+	width: auto;
+	border-radius: 50%;
+}
+
+article {
+	margin: 5%;
+	font-size: 150%;
+	font-weight: 400;
+	padding: 2.5%;
+}
+
+.projects {
+	margin: 2%;
+}
+
+.projects a {
+	color: #ba8a7f;
+	border: solid;
+	margin: 5%;
+	padding: 5%;
+	display: block;
+	text-align: center;
+}
