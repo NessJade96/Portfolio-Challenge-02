@@ -9,12 +9,12 @@
 	</head>
 	<body>
 		<header>
-			<h1>Vanessa Bloom <img src="./images/selfie-edit.png" alt="portrait photo"></h1>
+			<h1><img src="./images/selfie-edit.png" alt="portrait photo"> Vanessa Bloom</h1>
 			<nav>
 				<ul>
-					<li>ABOUT</li>
-					<li>PROJECTS</li>
-					<li>CONTACT</li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#projects">PROJECTS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
 					<li id="linktree">
 						<a href="https://linktr.ee/vanessa.jade" target="_blank"
 							><img
@@ -26,7 +26,7 @@
 			</nav>
 		</header>
 		<article>
-			<h2>ABOUT</h2>
+			<h2 id="about">ABOUT</h2>
 			<p
 				>Lorem ipsum dolor sit amet consectetur adipisicing elit.
 				Quaerat iure corporis sit cum doloribus cupiditate, ducimus nam
@@ -34,15 +34,24 @@
 				aperiam vel, recusandae quas.</p
 			>
 		</article>
-		<section class="projects">
+		<section id="projects" class="projects">
 			<a href="https://sass-blogr.netlify.app/" target="_blank">
-				project-one
+				<p id="main-project" class="project-name">Blogr</p> 
+				<br>
+				<p class="project-language">HTML + CSS</p>
 			<img src="./images/project-one.svg" alt="Blogr"></a>
-			<a href="">project-two</a>
-			<a href="">project-three</a>
+			<a href="https://mock-order-summary-card.netlify.app/" target="_blank"><p class="project-name">Order Summary</p> 
+				<br>
+				<p class="project-language">HTML + CSS</p></a>
+			<a href="https://business-stats-card.netlify.app/" target="_blank"><p class="project-name">Business Card Stats</p>
+				<br>
+				<p class="project-language">HTML + CSS</p></a></a>
 		</section>
 		<footer>
-			<h3>Contact Me: ness.jade@outlook.com</h4>
+			<h3 id="contact">Contact Me</h3> 
+			<h4>Email: ness.jade@outlook.com 
+				<br>
+				Phone: 0435 295 140</h4>
 		</footer>
 	</body>
 </html>
