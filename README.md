@@ -22,3 +22,8 @@ Commit 4:
 Added in the <main> and deleted a bunch of unnecessary styling - cleaning up the CSS.
 Rearranged footer and adding in a google font icon to upgrade the 'CONTACT' icons.
 Added before pseudo element to IDs that the Nav links which added a gap at the top of the page and is not hidden behind the sticky nav. Changed the color of the links when hovered over using a pseudo selector.
+
+Commit 5:
+Upped the first project font weight and font size to highlight this project.
+Now that I have the colours and everything for my mobile site, I am now going to optimise the CSS code and add variables on colours. Removed the "text-align: justify" from my About.
+Planning to make the relative viewports I am updating my sizes from % to rem as this will relate better when sizing my website larger. Added the text align to the contact in the footer. Added comments to create a CSS index for easy readibiliy - complete restructure of CSS formatting, includes adding extra ID and Class tags.

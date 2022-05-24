@@ -16,12 +16,13 @@
 			<h1>
 				<a href="#header">
 					<img
+						id="portrait-image"
 						src="./images/selfie-edit.png"
 						alt="portrait photo" /></a
 				>Vanessa Bloom</h1
 			>
 			<nav>
-				<ul>
+				<ul class="links">
 					<li><a href="#about">ABOUT</a></li>
 					<li><a href="#projects">PROJECTS</a></li>
 					<li><a href="#contact">CONTACT</a></li>
@@ -40,12 +41,17 @@
 			</article>
 			<section id="projects" class="projects anchor-nav">
 				<h2>PROJECTS</h2>
-				<a href="https://sass-blogr.netlify.app/" target="_blank">
+				<a
+					class="project-links"
+					href="https://sass-blogr.netlify.app/"
+					target="_blank"
+				>
 					<p id="main-project" class="project-name">Blogr</p>
 					<p class="project-language">HTML + CSS</p>
 					<img src="./images/project-one.svg" alt="Blogr"
 				/></a>
 				<a
+					class="project-links"
 					href="https://mock-order-summary-card.netlify.app/"
 					target="_blank"
 					><p class="project-name">Order Summary</p>
@@ -55,6 +61,7 @@
 						alt="Screenshot of project two"
 				/></a>
 				<a
+					class="project-links"
 					href="https://business-stats-card.netlify.app/"
 					target="_blank"
 					><p class="project-name">Business Card Stats</p>
@@ -69,10 +76,11 @@
 		<footer>
 			<div id="contact">
 				<h2>CONTACT</h2>
-				<ul>
-					<li id="linktree">
+				<ul class="links">
+					<li>
 						<a href="https://linktr.ee/vanessa.jade" target="_blank"
 							><img
+								id="linktree"
 								src="./images/icons/linktreepng.png"
 								alt="linktree"
 						/></a>
@@ -85,7 +93,7 @@
 					>
 				</ul>
 			</div>
-			<p>Made by Vanessa Bloom &#169;</p>
+			<p id="copyright">Made by Vanessa Bloom &#169;</p>
 		</footer>
 	</body>
 </html>

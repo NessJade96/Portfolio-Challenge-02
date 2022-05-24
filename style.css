@@ -1,123 +1,34 @@
-body {
-	background-color: #f0d5c1;
-	color: #564c4d;
-	margin-top: 30%;
+/*
+CSS DIRECTORY
+	1. =ROOT VARIABLES & UTILITY
+	2. =BODY
+	2. =HEADER
+	4. =MAIN
+	3. =ABOUT
+	4. =PROJECTS
+	5. =FOOTER
+*/
+
+/*  ===============
+    ROOT VARIABLES & UTILITY
+    =============== */
+
+:root {
+	--lavender-blush: #faedf0;
+	--champagne-pink: #f0d5c1;
+	--melon: #e6b8aa;
+	--tan-blush: #ba8a7f;
+	--rosy-brown: #564c4d;
 }
 
-header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #e6b8aa;
-	z-index: 9999;
-}
-
-main {
-	padding: 5%;
-}
-
-h1 {
-	font-size: 200%;
-	padding: 2.5%;
-	display: flex;
-	justify-content: center;
-}
-
-ul {
+.links {
 	display: flex;
 	justify-content: space-around;
-}
-
-li {
-	margin: 2.5%;
-}
-
-img {
-	width: 100%;
-	height: auto;
-}
-
-li img {
-	height: 1.5rem;
-	width: auto;
-}
-
-h1 img {
-	height: 1.8rem;
-	width: auto;
-	border-radius: 50%;
-	margin-right: 3%;
-}
-
-article {
-	font-size: 150%;
-	font-weight: 400;
-	margin: 2.5%;
-}
-
-article p {
-	padding-top: 5%;
-	text-align: justify;
+	margin: 0.6rem;
 }
 
 a {
-	color: #564c4d;
-}
-
-section h2 {
-	padding-top: 5%;
-	font-size: 150%;
-}
-
-footer {
-	padding: 5% 7.5%;
-	background-color: #e6b8aa;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: column;
-}
-
-footer p {
-	font-size: 0.5rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-bottom: 1%;
-}
-
-.projects {
-	margin: 2%;
-}
-
-.projects a {
-	color: #ba8a7f;
-	border: solid;
-	margin: 5% 0%;
-	padding: 5%;
-	display: block;
-	text-align: center;
-}
-
-.project-name {
-	font-size: 1.5rem;
-}
-
-.material-symbols-rounded {
-	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-#main-project {
-	font-size: 2rem;
-}
-
-#projects img {
-	opacity: 50%;
-	height: 6rem;
-	width: auto;
-	padding-top: 5%;
+	color: var(--rosy-brown);
 }
 
 a:link {
@@ -138,14 +49,140 @@ a:active {
 }
 
 a:hover {
-	color: #ba8a7f;
+	color: var(--tan-blush);
+}
+
+/*  ===============
+    BODY 
+    =============== */
+body {
+	background-color: var(--champagne-pink);
+	color: var(--rosy-brown);
+	margin-top: 6rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
 
 .anchor-nav::before {
 	display: block;
 	content: " ";
-	margin-top: -100px;
-	height: 100px;
+	margin-top: -120px;
+	height: 120px;
 	visibility: hidden;
 	pointer-events: none;
+}
+/*  ===============
+    HEADER
+    =============== */
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: var(--melon);
+	z-index: 9999;
+}
+
+h1 {
+	font-size: 2rem;
+	padding: 1.2rem;
+	display: flex;
+	justify-content: center;
+}
+
+#portrait-image {
+	height: 1.8rem;
+	width: auto;
+	border-radius: 50%;
+	margin-right: 3%;
+}
+
+/*  ===============
+    MAIN
+    =============== */
+main {
+	padding: 2rem;
+}
+
+/*  ===============
+    ABOUT
+    =============== */
+article {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 0.5rem;
+}
+
+article p {
+	padding-top: 0.7rem;
+}
+
+/*  ===============
+    PROJECTS
+    =============== */
+section h2 {
+	padding-top: 0.7rem;
+	font-size: 1.5rem;
+}
+
+.project-links {
+	color: var(--tan-blush);
+	border: solid;
+	margin: 0.5rem 0rem;
+	padding: 0.5rem;
+	display: block;
+	text-align: center;
+}
+
+.project-name {
+	font-size: 1.5rem;
+}
+
+.projects {
+	margin: 0.5rem;
+}
+
+#main-project {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+#projects img {
+	opacity: 50%;
+	height: 6rem;
+	width: auto;
+	padding-top: 0.7rem;
+}
+
+/*  ===============
+    FOOTER
+    =============== */
+footer {
+	padding: 1rem 1.5rem;
+	background-color: var(--melon);
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+#copyright {
+	font-size: 0.5rem;
+}
+
+footer h2 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+#linktree {
+	height: 1.5rem;
+	width: auto;
+}
+
+.material-symbols-rounded {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
