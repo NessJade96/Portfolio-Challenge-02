@@ -1,9 +1,7 @@
 body {
 	background-color: #f0d5c1;
 	color: #564c4d;
-	padding: 5%;
-	margin-top: 20%;
-	margin-bottom: 0%;
+	margin-top: 30%;
 }
 
 header {
@@ -11,8 +9,11 @@ header {
 	top: 0;
 	width: 100%;
 	background-color: #e6b8aa;
-	margin-left: -5%;
 	z-index: 9999;
+}
+
+main {
+	padding: 5%;
 }
 
 h1 {
@@ -20,7 +21,6 @@ h1 {
 	padding: 2.5%;
 	display: flex;
 	justify-content: center;
-	/* margin-left: -12%; */
 }
 
 ul {
@@ -38,7 +38,7 @@ img {
 }
 
 li img {
-	height: 1rem;
+	height: 1.5rem;
 	width: auto;
 }
 
@@ -70,20 +70,21 @@ section h2 {
 }
 
 footer {
-	margin: 2.5%;
 	padding: 5% 7.5%;
 	background-color: #e6b8aa;
-	width: 120%;
-	margin-left: -5%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
 }
 
 footer p {
 	font-size: 0.5rem;
-	text-align: center;
 }
 
-h3 {
-	font-size: 1.3rem;
+h2 {
+	font-size: 1.5rem;
 	margin-bottom: 1%;
 }
 
@@ -102,6 +103,10 @@ h3 {
 
 .project-name {
 	font-size: 1.5rem;
+}
+
+.material-symbols-rounded {
+	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 #main-project {
@@ -130,4 +135,17 @@ a:hover {
 
 a:active {
 	text-decoration: underline;
+}
+
+a:hover {
+	color: #ba8a7f;
+}
+
+.anchor-nav::before {
+	display: block;
+	content: " ";
+	margin-top: -100px;
+	height: 100px;
+	visibility: hidden;
+	pointer-events: none;
 }
