@@ -27,3 +27,6 @@ Commit 5:
 Upped the first project font weight and font size to highlight this project.
 Now that I have the colours and everything for my mobile site, I am now going to optimise the CSS code and add variables on colours. Removed the "text-align: justify" from my About.
 Planning to make the relative viewports I am updating my sizes from % to rem as this will relate better when sizing my website larger. Added the text align to the contact in the footer. Added comments to create a CSS index for easy readibiliy - complete restructure of CSS formatting, includes adding extra ID and Class tags.
+
+Commit 6:
+Created media queries adjust CSS to style the table size website 768px. Increased font sizing and added a container around the secondary projects to include flex. Lastly,
