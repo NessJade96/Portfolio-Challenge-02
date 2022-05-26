@@ -19,7 +19,7 @@ Firstly I drew quick mock ups of each viewport design on paper. Then I created t
 # Links:
 
 Github repo: https://github.com/NessJade96/Portfolio-Challenge-02
-Webpage deploy:
+Webpage deploy: https://nessjade96.github.io/Portfolio-Challenge-02/
 
 # Commit notes:
 
