@@ -6,6 +6,23 @@ Created: index.html, style.css, reset.css
 
 Copied reset.css from class activity 11.
 
+# Description
+
+Firstly I drew quick mock ups of each viewport design on paper. Then I created the HTML, CSS, and copied the reset.css from one of the class activies. I quickly found myself eager to complete this page! I love applying what I have learnt, and I have thoroughly enjoyed applying myself to this assignment. I spent a lot of time googling different terms and questions. Things like making sure I use semantic HTML, and additionaly I also learnt things like flex-basis and applied them to the page. I was self teaching and followed a few "front end mentor" free designs - these are linked as my projects. Thanks for checking this out :) Vanessa.
+
+# Screenshots:
+
+![Desktop](./images/webpage-desktop.jpg "Desktop")
+![Tablet](./images/webpage-tablet.jpg "Tablet")
+![Mobile](./images/webpage-mobile.jpg "Mobile")
+
+# Links:
+
+Github repo: https://github.com/NessJade96/Portfolio-Challenge-02
+Webpage deploy:
+
+# Commit notes:
+
 Commit 1:
 Created website content in index.html. Created style.css and added in formatting. Added reference colour scheme. added Linktree png and a selfie photo. Created project-one main img and link to page. Added the Contact Me at the bottom of the screen. All of this was for mobile view.
 
@@ -33,3 +50,6 @@ Created media queries adjust CSS to style the table size website 768px. Increase
 
 Commit 6:
 The final changes on the desktop/1024px media query. I added flex containers to the main image to restructure the contents using flex. Increased the text on the article to fill space. Also added in the media query to provide a max width to maintain styling.
+
+Commit 7:
+Wrote my about me section. Double checked marking criteria and finalised the ReadMe.
