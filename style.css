@@ -74,13 +74,7 @@ img {
 	visibility: hidden;
 	pointer-events: none;
 }
-/* 
-@media screen (min-width 768px) {
-	.anchor-nav::before {
-		margin-top: -160px;
-		height: 160px;
-	}
-} */
+
 /*  ===============
     HEADER
     =============== */
@@ -128,6 +122,19 @@ main {
 	padding: 2rem;
 }
 
+@media (min-width: 1024px) {
+	main {
+		display: flex;
+	}
+}
+
+@media (min-width: 1440px) {
+	main {
+		max-width: 1400px;
+		margin: 0 auto;
+	}
+}
+
 /*  ===============
     ABOUT
     =============== */
@@ -139,6 +146,19 @@ article {
 
 article p {
 	padding-top: 0.7rem;
+}
+
+@media (min-width: 1024px) {
+	article {
+		flex-basis: 40%;
+	}
+	article h2 {
+		font-size: 4rem;
+	}
+	article p {
+		font-size: 2rem;
+		padding-top: 3rem;
+	}
 }
 
 /*  ===============
@@ -165,7 +185,7 @@ section h2 {
 	justify-content: space-around;
 }
 
-#main-project {
+#main-project-name {
 	font-size: 2rem;
 	font-weight: 600;
 }
@@ -190,9 +210,34 @@ section h2 {
 	.secondary-project-links {
 		flex-basis: 48%;
 	}
+}
+
+@media (min-width: 1024px) {
+	#projects {
+		flex-basis: 60%;
+	}
 
 	.main-project-link {
 		margin: 0.6rem;
+		display: flex;
+	}
+
+	.project-name-and-language {
+		flex-basis: 60%;
+		padding-top: 9rem;
+	}
+
+	#main-project-name {
+		flex-basis: 50%;
+	}
+
+	#main-project-language {
+		flex-basis: 50%;
+	}
+
+	#projects #main-project-img {
+		flex-basis: 50%;
+		height: auto;
 	}
 }
 

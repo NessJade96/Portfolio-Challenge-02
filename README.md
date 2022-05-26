@@ -29,4 +29,7 @@ Now that I have the colours and everything for my mobile site, I am now going to
 Planning to make the relative viewports I am updating my sizes from % to rem as this will relate better when sizing my website larger. Added the text align to the contact in the footer. Added comments to create a CSS index for easy readibiliy - complete restructure of CSS formatting, includes adding extra ID and Class tags.
 
 Commit 6:
-Created media queries adjust CSS to style the table size website 768px. Increased font sizing and added a container around the secondary projects to include flex. Lastly,
+Created media queries adjust CSS to style the table size website 768px. Increased font sizing and added a container around the secondary projects to include flex. Lastly, I changed the pseudo margin-top and height was increased to allow for the growth in size.
+
+Commit 6:
+The final changes on the desktop/1024px media query. I added flex containers to the main image to restructure the contents using flex. Increased the text on the article to fill space. Also added in the media query to provide a max width to maintain styling.
